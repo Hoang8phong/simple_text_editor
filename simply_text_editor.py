@@ -1,19 +1,4 @@
-#Ask user for a file name
-#if file exist
-#   open it
-#   Write its content to the terminal
-#else
-#   Create a new file
-#If file cannot be opened
-#   print error
-#Loop
-#   Get user input
-#   if input == 'SAVE'
-#   break
-#Write all the user input into the file
-
 import os
-
 
 def main():
     filename = input('Enter the file name to open or create: ').strip()
